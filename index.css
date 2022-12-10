@@ -1,0 +1,39 @@
+/*.area-block {
+    display: flex;
+    flex-direction: column;
+}*/
+.title {
+    font-size: 30px;
+    color: #00BDF8;
+    text-align: center;
+}
+
+textarea {
+    border: solid #00BDF8;
+    border-radius: 5px;
+    outline: none;
+}
+
+.button-area {
+    display: flex;
+    flex-flow: column;
+}
+
+.buttons {
+    flex-flow: row;
+    text-align: center;
+}
+
+button {
+    color: black;
+    background-color: coral;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    border: solid cyan 2px;
+    color: white;
+}
